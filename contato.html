@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Porfólio do Lucas</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="index.html">
+            SOBRE MIM
+          </a>
+        </li>
+        <li>
+          <a href="projetos.html">
+            PROJETOS
+          </a>
+        </li>
+        <li>
+          <a href="contato.html">
+            CONTATO
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="topo">
+      <h1 class="titulo">ENTRE EM CONTATO COMIGO! 😎😎😎</h1>
+    </header>
+
+    <main class="corpo">
+
+      <div class="linha">
+        <div class="coluna hover">
+          <a href="https://wa.me/5511948511488" target="_blank">
+            <figure>
+              <img src="img/contato/whatsapp.png" height="200" width="200" />
+            </figure>
+          </a>
+          <h4 class="titulo-info">
+            WHATSAPP
+          </h4>
+          <p class="info">
+            Me chame pelo whatsapp para uma resposta rápida.
+          </p>
+        </div>
+        <div class="coluna hover">
+          <a href="https://m.facebook.com/geiza.aquino.5" target="_blank">
+            <figure>
+              <img src="img/contato/facebook.png" height="200" width="200" />
+            </figure>
+          </a>
+          <h4 class="titulo-info">
+            FACEBOOK
+          </h4>
+          <p class="info">
+            Caso você queira conhecer um pouco mais da minha vida pessoal.
+          </p>
+        </div>
+        <div class="coluna hover">
+          <a href="https://www.linkedin.com/in/geiza-aquino-91a9aa8a/" target="_blank">
+            <figure>
+              <img src="img/contato/linkedin.png" height="200" width="200" />
+            </figure>
+          </a>
+          <h4 class="titulo-info">
+            LINKEDIN
+          </h4>
+          <p class="info">
+            Caso você queira conhecer um pouco mais da minha vida profissional.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="titulo">OU PREENCHA ESTE FORMULÁRIO, QUE EU TE CHAMO!</h2>
+      <form action="#" method="POST" class="formulario">
+
+        <div class="linha">
+          <div class="coluna">
+            <label for="nomeTxt">NOME COMPLETO:</label>
+            <input type="text" name="nomeTxt" id="nomeTxt" class="campo" required placeholder="Nome completo..." maxlength="60">
+          </div>
+          <div class="coluna">
+            <label for="emailTxt">EMAIL:</label>
+            <input type="email" name="emailTxt" id="emailTxt" class="campo" required placeholder="Seu email..." maxlength="60">
+          </div>
+        </div>
+
+        <div class="linha">
+          <div class="coluna">
+            <label for="whatsappTxt">WHATSAPP:</label>
+            <input type="number" name="whatsappTxt" id="whatsappTxt" class="campo" required placeholder="Seu whatsapp..." minlength="9" maxlength="15">
+          </div>
+
+          <div class="coluna">
+            <label for="assuntoTxt">ASSUNTO:</label>
+            <input type="text" name="assuntoTxt" id="assuntoTxt" class="campo" required placeholder="Qual assunto?" minlength="3">
+          </div>
+        </div>
+
+        <div class="linha">
+          <button type="button" id="botao">ENVIAR</button>
+        </div>
+      </form>
+
+    </main>
+    <footer class="rodape">
+      <p>2021 - Desenvolvido por Antonia 😎</p>
+    </footer>
+  </div>
+</body>
+<script src="script.js" charset=utf-8></script>
+</html> 
